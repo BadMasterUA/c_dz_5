@@ -22,6 +22,8 @@ int main()
     cout << endl;
 
     cout << "Perimeter of a rectangle is: " << Perimeter(lengthRect, widthyRect);
+
+    return 0;
 }
 
 //задание №2 определение функции Perimetr
