@@ -10,7 +10,8 @@ unsigned short int del( unsigned short int, unsigned short int);
 int main()
 {
     //Задание №6
-    unsigned short int a, b, c;
+    short int c;
+    unsigned short int a, b;
 
     cout << "Enter a: ";
     cin >> a;
@@ -19,7 +20,7 @@ int main()
 
     c = del(a,b);
 
-    if (c > -1)
+    if (c > 0)
     {
         cout << "c = " << c;
     }
