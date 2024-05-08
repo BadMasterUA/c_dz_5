@@ -6,6 +6,7 @@ using namespace std;
 /*Функция принимает два числа иделит первое на второе и возврощает
 результат деления*/
 unsigned short int del( unsigned short int, unsigned short int);
+
 int main()
 {
     //Задание №6
