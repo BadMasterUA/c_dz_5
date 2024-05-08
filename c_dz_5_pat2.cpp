@@ -5,7 +5,7 @@ using namespace std;
 //Задание №5
 /*Функция принимает два числа иделит первое на второе и возврощает
 результат деления*/
-unsigned short int del( unsigned short int, unsigned short int);
+short int del( unsigned short int, unsigned short int);
 
 int main()
 {
@@ -20,27 +20,27 @@ int main()
 
     c = del(a,b);
 
-    if (c > 0)
+    if (c == -1)
     {
-        cout << "c = " << c;
+        cout << "You can't divide by zero!";
     }
     else
     {
-        cout << "b is equal to 0 or less than 0, but you cannot divide by 0!";
+        cout << "c = " << c;
     }
 
     return 0;
 }
 
 //описание функции
-unsigned short int del(unsigned short int a, unsigned short int b)
+short int del(unsigned short int a, unsigned short int b)
 {
-    if(b > 0)
+    if(b == 0)
     {
-        return a / b;
+        return -1;
     }
     else
     {
-        return -1;
+        return a / b;
     }
 }
