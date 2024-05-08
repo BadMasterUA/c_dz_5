@@ -39,8 +39,6 @@ short int del(unsigned short int a, unsigned short int b)
     {
         return -1;
     }
-    else
-    {
-        return a / b;
-    }
+
+    return a / b;
 }
